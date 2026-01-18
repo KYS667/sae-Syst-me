@@ -1,0 +1,100 @@
+
+
+/* --- Global Body & Fonts --- */
+body {
+    background-color: #f4f6f9; /* Un gris très léger, plus moderne que le blanc pur */
+'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Police système propre */
+    color: #333; /* Gris foncé au lieu de noir pur pour le confort de lecture */
+}
+
+/* --- Navigation --- */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Ombre un peu plus marquée pour détacher le menu */
+    background: linear-gradient(90deg, #0d6efd 0%, #0a58ca 100%); /* Petit dégradé bleu Bootstrap */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* --- Cards (Le conteneur principal) --- */
+.card {
+    border: none; /* On enlève la bordure grise moche de base */
+    border-radius: 10px; /* Coins un peu plus arrondis */
+    box-shadow: 0 0 15px rgba(0,0,0,0.05); /* Ombre douce tout autour */
+}
+
+h1.card-title {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    letter-spacing: -0.5px;
+}
+
+/* --- Titres H3 (Sous-titres de section) --- */
+h3 {
+    color: #0d6efd; /* Bleu Bootstrap */
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    border-left: 5px solid #0d6efd; /* Petite barre bleue à gauche du titre */
+    padding-left: 10px; /* Espace entre la barre et le texte */
+}
+
+/* --- Code Snippets (Balises <code>) --- */
+code {
+    background-color: #eef1f6;
+    color: #d63384; /* Rose Bootstrap standard pour le code */
+    padding: 2px 5px;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+/* --- Notes spéciales (Classe .note que tu utilisais) --- */
+.note {
+    background-color: #fff3cd; /* Fond jaune très clair */
+    border-left: 4px solid #ffc107; /* Barre jaune à gauche */
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 0 5px 5px 0;
+    color: #856404;
+}
+
+/* --- Images et Figures --- */
+.figure-img {
+    transition: transform 0.2s ease; /* Préparation pour un petit effet au survol */
+    border: 1px solid #dee2e6; /* Fine bordure grise */
+}
+
+.figure-img:hover {
+    transform: scale(1.02); /* L'image grossit très légèrement quand on passe la souris */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.figure-caption {
+    font-style: italic;
+    color: #6c757d;
+    margin-top: 8px;
+}
+
+/* --- Listes --- */
+ul li {
+    margin-bottom: 8px; /* Aère un peu les listes */
+}
+
+/* --- Footer --- */
+footer {
+    background-color: #ffffff !important;
+    border-top: 1px solid #eaeaea;
+    color: #6c757d;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
